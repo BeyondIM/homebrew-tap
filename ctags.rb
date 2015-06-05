@@ -6,7 +6,7 @@ class Ctags < Formula
   sha1 '482da1ecd182ab39bbdc09f2f02c9fba8cd20030'
 
   head do
-    url 'https://github.com/fishman/ctags.git', :using => :git
+    url 'https://github.com/universal-ctags/ctags', :using => :git
     depends_on :autoconf
   end
 
